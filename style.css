@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Libre", sans-serif;
+}
+body{
+    background:linear-gradient(45deg,#0a0a0a,#424141);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculater{
+    background-color: transparent;
+    border:1px solid#f5fbff77;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 15px rgba(113, 115, 119, 0.9);
+
+}
