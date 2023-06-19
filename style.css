@@ -28,11 +28,26 @@ input{
     padding: 24px;
     border-radius: 10px;
     box-shadow: 0px 1px 15px rgba(113, 115, 119, 0.9);   
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: 600;
     cursor: pointer;
     text-align: right;
     color: #ffffff;
+    margin-bottom: 8px;
 }
 input::placeholder{
     color: #ffffff;
+}
+button{
+    width: 60px;
+    height: 60px;
+    border: none;
+    margin: 8px;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0px 5px 15px rgba(113, 115, 119, 0.9);   
 }
