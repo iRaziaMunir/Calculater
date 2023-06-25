@@ -6,8 +6,11 @@ let string = "";
 buttons.forEach(button => {
   button.addEventListener('click', (e) => {
     if (e.target.innerHTML === '=') {
-      string = eval(string);
-      input.value = string;
+      if(string.length)
+      {
+        string = eval(string);
+        input.value = string;
+      }
     }
     else if (e.target.innerHTML === 'AC') {
       string = '';
