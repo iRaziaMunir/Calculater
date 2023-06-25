@@ -46,3 +46,15 @@ buttons.forEach(button => {
     }
   });
 });
+
+document.addEventListener('keydown', function(event) {
+  const key = event.key;
+  buttons.forEach(button =>
+    {
+      if(key == button.innerText)
+      {
+        button.click();
+      }
+    }
+  );
+});
