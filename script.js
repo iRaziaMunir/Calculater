@@ -42,7 +42,10 @@ buttons.forEach(button => {
       }
       else
       {
-        string += e.target.innerHTML;
+        if(!(string.length == 1 && string === '0' && e.target.innerHTML === '0'))
+        {
+          string += e.target.innerHTML;
+        }
       }
 
       input.value = string;
