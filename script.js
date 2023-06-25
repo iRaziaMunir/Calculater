@@ -8,8 +8,8 @@ buttons.forEach(button => {
     if (e.target.innerHTML === '=') {
       if(string.length)
       {
-        string = eval(string);
-        input.value = string;
+        input.value = eval(string);
+        string = input.value.toString();
       }
     }
     else if (e.target.innerHTML === 'AC') {
