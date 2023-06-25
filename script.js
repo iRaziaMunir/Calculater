@@ -59,6 +59,10 @@ document.addEventListener('keydown', function(event) {
       {
         button.click();
       }
+      else if((key == 'Backspace' || key == 'Delete') && button.innerText == 'DEL')
+      {
+        button.click();
+      }
     }
   );
 });
