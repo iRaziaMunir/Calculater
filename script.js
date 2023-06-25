@@ -19,19 +19,22 @@ buttons.forEach(button => {
     }
     else
     {
-      if(string.length && e.target.classList.contains('operater'))
+      if(e.target.classList.contains('operater'))
       {
-        const operatersList = ['*', '/', '+', '-', '%', '.'];
-        let = currentOperater = string[string.length -1];
-        let containsAnyOperater = operatersList.some(operater => currentOperater.includes(operater));
+        if(string.length)
+        {
+          const operatersList = ['*', '/', '+', '-', '%', '.'];
+          let = currentOperater = string[string.length -1];
+          let containsAnyOperater = operatersList.some(operater => currentOperater.includes(operater));
 
-        if(containsAnyOperater)
-        {
-          string = string.slice(0, -1) + e.target.innerHTML;
-        }
-        else
-        {
-          string += e.target.innerHTML;
+          if(containsAnyOperater)
+          {
+            string = string.slice(0, -1) + e.target.innerHTML;
+          }
+          else
+          {
+            string += e.target.innerHTML;
+          }
         }
       }
       else
