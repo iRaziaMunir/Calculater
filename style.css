@@ -8,7 +8,7 @@
 }
 
 body {
-    background: linear-gradient(45deg, #0a0a0a, #424141);
+    background: linear-gradient(45deg, #4d4747, #5d5d5d);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -64,6 +64,9 @@ button:hover {
 
 .operater {
     color: rgb(107, 201, 207);
+}
+.dot{
+    color: whitesmoke;
 }
 
 button:active {
