@@ -55,6 +55,10 @@ document.addEventListener('keydown', function(event) {
       {
         button.click();
       }
+      else if(key == 'Enter' && button.innerText == '=')
+      {
+        button.click();
+      }
     }
   );
 });
