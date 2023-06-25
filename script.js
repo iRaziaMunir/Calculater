@@ -63,6 +63,10 @@ document.addEventListener('keydown', function(event) {
       {
         button.click();
       }
+      else if(key == 'Escape' && button.innerText == 'AC')
+      {
+        button.click();
+      }
     }
   );
 });
